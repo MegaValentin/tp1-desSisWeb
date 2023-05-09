@@ -3,6 +3,26 @@
     margin: 0;
     box-sizing: 0;
 }
+body{
+    background-color: black;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 10px; 
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: tomato; 
+    border-radius: 5px; 
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: var(--main-paleta1-color); 
+    border-radius: 5px; 
+  }
 header{
     width: 100%;
     height: 100vh;
@@ -77,16 +97,86 @@ nav{
     font-size: 3.5em;
     margin-bottom: 50px;
 }
-.btn{
-    text-decoration:  none;
-    background-color: tomato;
+
+.btn a{
     color: white;
-    padding: 10ox 20px;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 20px;
     font-size: 20px;
+    border-radius: 15px;
 }
 .btn::before{
     content: '';
     position: absolute;
     top: 0;
     left: 0;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+}
+.contenedor{
+    padding: 80px 0;
+}
+/*main*/
+.kassa{
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+}
+.txt-main{
+    width: 40%;
+}
+.txt-main h2, .txt-main p{
+    font-family: 'Bungee', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #fff;
+    
+}
+.txt-main h2{
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.txt-main p{
+    text-align: justify;
+    margin-top: 20px;
+    font-weight:bold; 
+    font-size: 20px; 
+}
+.kassa img{
+    width: 40%;
+}
+.servicios{
+    background-color: yellowgreen;
+}
+/*Modelos*/
+.modelos{
+    background-color: tomato;
+}
+.contenedor h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Bungee', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 40px;
+}
+.modelos-cont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.modelos-cont>img{
+    width: 30%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
 }
