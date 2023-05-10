@@ -152,9 +152,42 @@ nav{
 .kassa img{
     width: 40%;
 }
-.servicios{
-    background-color: yellowgreen;
+
+/*Precios*/
+.secc-precio{
+    background-color: tomato;
 }
+.tabla{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 40px;
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+
+  
+  th {
+    background-color: #F2F2F2;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+  }
+  
+  td {
+    background-color: #FFFFFF;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #CCCCCC;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #F2F2F2;
+  }
+  
+
 /*Modelos*/
 .modelos{
     background-color: tomato;
@@ -183,10 +216,74 @@ nav{
     cursor: pointer;
     overflow: hidden;
 }
+/*Formulario*/
+.contacto{
+    background-color: #fff;
+}
+.formulario h2{
+    color: #000;
+}
+.formulario h4{
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Bungee', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Bungee', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    padding: 8px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  textarea:focus {
+    border-color: #4CAF50;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3E8E41;
+  }
+  
 /*Footer*/
 .pie-pagina{
     width: 100%;
-    background-color: tomato;
+    background-color: #000;
+    font-family: 'Bungee', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+
 }
 .pie-pagina .grupo1{
     width: 100%;
@@ -211,7 +308,10 @@ nav{
     color: #fff;
     margin-bottom: 25px;
     font-size: 20px;
+    font-family: 'Bungee', cursive;
+    font-family: 'IBM Plex Mono', monospace;
 }
+
 .pie-pagina .grupo1 .box p{
     color: #efefef;
     margin-bottom: 10px;
@@ -240,4 +340,6 @@ nav{
 }
 .pie-pagina .grupo2 small{
     font-size: 15px;
+    font-family: 'Bungee', cursive;
+    font-family: 'IBM Plex Mono', monospace;
 }

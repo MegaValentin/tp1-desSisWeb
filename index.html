@@ -18,11 +18,11 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="./img/icons8-caja-de-carton-64 (1).png" alt="">
+                <img src="./img/icons8-caja-de-carton-64.png" alt="Kassa">
             </div>
             <ul class="menu">
                 <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#servicios">Servico</a></li>
+                <li><a href="#precios">Precios</a></li>
                 <li><a href="#modelos">Moldelos</a></li>
             </ul>
             <div class="contact">
@@ -49,48 +49,91 @@
         </div>
         <img src="img/KASSA.png" alt="">
     </main>
-    <section id="servicios" class="servicios">
-        <div class="contenedor">
-            <h2>¿Que ofrecemos?</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, enim autem.
-                 Placeat nobis neque rem enim deserunt ad debitis dolores, excepturi dolorum!
-                 Eligendi voluptas architecto esse nisi iste autem inventore?
-            </p>
+    <section id="precios" class="secc-precio">
+        <div class="contenedor precios">
+            <h2>Lista de precio</h2>
+                <table class="tabla">
+                    <thead class="encabezado">
+                        <tr>
+                        <th>Tamaño</th>
+                        <th>Modelos Disponibles</th>
+                        <th>Precio u</th>
+                        </tr>
+                    </thead>
+                    <tbody class="cuerpo">
+                        <tr>
+                        <td>80 x 65</td>
+                        <td>Todos los modelos</td>
+                        <td>8usd</td>
+                        </tr>
+                        <tr>
+                        <td>50 x 50</td>
+                        <td>Modelo 1 y 2</td>
+                        <td>7usd</td>
+                        </tr>
+                        <tr>
+                            <td>50 x 50</td>
+                            <td>Modelo 1 y 2</td>
+                            <td>7usd</td>
+                        </tr>
+                        <tr>
+                            <td>50 x 50</td>
+                            <td>Modelo 1 y 2</td>
+                            <td>7usd</td>
+                        </tr>
+                        <tr>
+                            <td>50 x 50</td>
+                            <td>Modelo 1 y 2</td>
+                            <td>7usd</td>
+                        </tr>
+                        <tr>
+                            <td>50 x 50</td>
+                            <td>Modelo 1 y 2</td>
+                            <td>7usd</td>
+                        </tr>
+                    </tbody>
+                </table>
         </div>
     </section>
     <section id="modelos" class="modelos" >
         <div class="contenedor">
             <h2>Modelos</h2>
             
-            <article class="modelos-cont">
+            <div class="modelos-cont">
                 <img src="./img/modelos/caja1.avif" alt="Modelo 1">
                 <img src="./img/modelos/caja2.avif" alt="Modelo 2">
                 <img src="./img/modelos/caja3.avif" alt="Modelo 3">
                 <img src="./img/modelos/caja4.avif" alt="Modelo 4">
                 <img src="./img/modelos/caja5.avif" alt="Modelo 5">
                 <img src="./img/modelos/caja6.avif" alt="Modelo 6">
-            </article>
+            </div>
         </div>
 
 
     </section>
+    <section id="contacto" class="contacto">
+        <div class="contenedor formulario">
+            <h2>¿Te intereso nuestro producto?</h2>
+            <h4>Contactanos</h4>
+            <form action="./gracias.html">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+  
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
     <footer class="pie-pagina">
         <div class="grupo1">
-            <div class="box">
-                <figure>
-                    <a href="#"> 
-                        <img src="./img/KASSA.png" alt="">
-                    </a>
-                </figure>
-            </div>
-            <div class="box">
-                <h2> Item 2</h2>
-                <p>Obteniendo datos de la API THE MOVIE DB:</p>
-                <p>◦ Se deberá realizar vistas (HTML , CSS , JS), de las películas:</p>
-                <p>▪ más populares en cines</p>
-                <p>▪ las 20 primeras series de TV paginando de a 5.</p>
-                <p>◦ Al hacer click sobre cualquier película o serie se deberá mostrar sus datos como por ejemplo la imagen siguiente.</p>
-            </div>
             <div class="box">
                 <h2>Para el desarrollo de esta pagina se utilizo:</h2>
                 
@@ -102,18 +145,26 @@
                         <img src="./img/iconos/icons8-css3-48.png" alt="">
                     </a>
                 </div>
-                <br>
+            </div>
+            <div class="box">
+                <figure>
+                    <a href="#"> 
+                        <img src="./img/KASSA.png" alt="">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
                 
                 <h2>Contacto</h2>                
                 <div class="redes-sociales">
                     <a href="https://github.com/MegaValentin" class="github">
-                        <img src="./img/iconos/icons8-github-30.png" alt="">
+                        <img src="./img/iconos/icons8-github-48.png" alt="">
                     </a>
                     <a href="https://www.instagram.com/valentin_mega/" class="instagram">
-                        <img src="./img/iconos/icons8-instagram-32.png" alt="">
+                        <img src="./img/iconos/icons8-instagram-48.png" alt="instagram">
                     </a>
                     <a href="https://www.linkedin.com/in/valent%C3%ADn-mega-04a160221/" class="linkedin">
-                        <img src="./img/iconos/icons8-linkedin-32.png" alt="">
+                        <img src="./img/iconos/icons8-linkedin-48.png" alt="">
                     </a>
                 </div>
             </div>
